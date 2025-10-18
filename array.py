@@ -17,3 +17,7 @@ for ele in arr:
         print(f"Element is present as {ind}")
         break
     ind+=1  
+
+#searching element in array without using for - loop
+
+print(arr.index(search))
